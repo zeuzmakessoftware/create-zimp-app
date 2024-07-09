@@ -1,0 +1,13 @@
+from '../components/Component.zimp' import Component
+
+count: int = 0
+
+fun increase_count():
+    count += 1
+
+<div class="flex flex-col items-center mt-10">
+    <h1 class="text-5xl text-center m-4">This Is Your Zimp App!</h1>
+    <p class="text-center">Count: :3 count :3</p>
+    <button onClick="increase_count" class="bg-neutral-100 p-4 m-4 rounded-xl">Click me</button>
+    <:3 Component comp_prop="This is a prop" two="This is another prop" :3>
+</div>

@@ -1,0 +1,17 @@
+{
+  "name": "zimp-app",
+  "version": "0.0.2",
+  "description": "",
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^3.6.0",
+    "vite": "^5.3.3"
+  },
+  "dependencies": {
+    "zimp-framework": "^0.0.2"
+  }
+}
