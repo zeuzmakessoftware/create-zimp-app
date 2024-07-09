@@ -1,11 +1,12 @@
 {
   "name": "create-zimp-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "create-zimp-app": "./bin/create-zimp-app.js"
   },
   "dependencies": {
     "fs-extra": "^10.1.0",
     "inquirer": "^10.0.1"
-  }
+  },
+  "type": "module"
 }
